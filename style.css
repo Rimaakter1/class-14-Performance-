@@ -1,0 +1,43 @@
+#divison1 {
+    border: 10px dashed black;
+    background-image: url('image/image.png');
+    background-repeat: no-repeat;
+    background-size: 100px;
+    padding: 15px;
+    background-clip: border-box;
+    margin-bottom: 40px;
+}
+
+#divison2 {
+
+    border: 5px dashed blueviolet;
+    background: url(image/bg-1.png), url(image/bg-2.png), url(image/bg-3.png);
+    padding: 30px;
+    background-clip: padding-box;
+    background-size: 100px;
+    background-repeat: no-repeat;
+    background-position: left, right, center;
+    margin-bottom: 40px;
+}
+
+#divison3 {
+    border: 10px dashed black;
+    background-color: rgb(223, 114, 114);
+    padding: 15px;
+    background-clip: content-box;
+}
+
+.parent {
+    border: 5px solid red;
+    padding: 90px 50px;
+    margin: 10px 200px;
+    background: rgb(164, 217, 238);
+
+}
+
+#child {
+    border: 10px dotted goldenrod;
+    background-color: rgb(232, 95, 95);
+    padding: 20px;
+    margin: auto;
+}
